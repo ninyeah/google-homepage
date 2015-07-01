@@ -79,8 +79,7 @@ li.nav_login a:hover {
 
 #fbar ul {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  top: 612px;
   margin: 0;
   padding: 0;
   height: auto;

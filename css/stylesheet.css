@@ -44,7 +44,7 @@ ul li.nav_login {
   padding-bottom: 8px;
 }
 
-li.nav_login a {
+li.nav_login a:link, li.nav_login a:visited, li.nav_login a:hover {
   color: #fff;
 }
 

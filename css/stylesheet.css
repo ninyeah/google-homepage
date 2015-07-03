@@ -1,5 +1,10 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
-  margin: 0;
+  margin: 0 0 40px; /* bottom = footer height */
   padding: 0;
 }
 
@@ -88,7 +93,6 @@ li.nav_login a:hover {
 
 #fbar ul {
   position: absolute;
-  top: 612px;
   bottom: 0;
   margin: 0;
   padding: 0;

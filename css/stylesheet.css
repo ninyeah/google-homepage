@@ -3,6 +3,11 @@ body {
   padding: 0;
 }
 
+#container {
+  position: relative;
+  display: block;
+}
+
 .gapp:hover { cursor: default; }
 
 #nav_bar li, #fbar li {
@@ -77,12 +82,17 @@ li.nav_login a:hover {
   padding: 7px; 
 }
 
+.search_b:hover {
+  border: 1px solid #c0c0c0;
+}
+
 #fbar ul {
   position: absolute;
   top: 612px;
+  bottom: 0;
   margin: 0;
   padding: 0;
-  height: auto;
+  height: 40px;
   width: 100%;
   background-color: #f2f2f2;
   border-top: 1px solid #e4e4e4;
